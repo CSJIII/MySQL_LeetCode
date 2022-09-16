@@ -7,6 +7,11 @@ lastName varchar(20),
 firstName varchar(20)
 );
 
+INSERT INTO ctt.person (personId, lastName, firstName)
+VALUES
+(1, 'Wang', 'Allen'),
+(2, 'Alice', 'Bob');
+
 
 CREATE TABLE ctt.address (
 addressId int,
