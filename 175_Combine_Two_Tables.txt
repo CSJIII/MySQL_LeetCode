@@ -20,3 +20,12 @@ city varchar(20),
 state varchar(20)
 );
 
+INSERT INTO ctt.address (addressId, personId, city, state)
+VALUES
+(1, 2, 'New York City', 'New York'),
+(2, 3, 'Leetcode', 'California');
+
+USE ctt;
+SELECT person.firstName, person.lastName, address.city, address.state
+FROM person
+LEFT JOIN address ON person.personId=address.personId;
