@@ -6,3 +6,12 @@ personId int,
 lastName varchar(20),
 firstName varchar(20)
 );
+
+
+CREATE TABLE ctt.address (
+addressId int,
+personId int,
+city varchar(20),
+state varchar(20)
+);
+
