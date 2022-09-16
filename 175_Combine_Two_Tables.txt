@@ -1,2 +1,8 @@
 
 CREATE DATABASE ctt;
+
+CREATE TABLE ctt.person (
+personId int,
+lastName varchar(20),
+firstName varchar(20)
+);
